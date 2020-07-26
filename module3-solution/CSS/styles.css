@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 
 body{
@@ -28,17 +29,22 @@ p{
 .nav-item{
   text-align:center;
   font-size:1.2em;
-  font-weight: bold;;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.nav-link{
+  margin-bottom: 0px;
 }
 .container{
   background-color: #0391c9;
   margin:0;
+  border: 1px solid black;
   max-width:100%
 }
 .navbar {
   background-color: #0391c9;
   border-radius: 0;
-  border: 1px;
   width:100%;
 }
 
@@ -61,7 +67,7 @@ p{
 
 
 
-span{
+.CBS{
     float: right;
     border:1px solid black;
     background-color:yellowgreen;
